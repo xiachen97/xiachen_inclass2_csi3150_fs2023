@@ -1,0 +1,63 @@
+/* Global CSS */
+* {
+    margin: 10;
+    box-sizing: border-box;
+    font-family: "cursive";
+  }
+
+.one-page{
+    border-style:solid;
+}
+
+.one-page .header h1,h2{
+    border-style:solid;
+    color: black;
+}
+
+.one-page .image-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.one-page .image-container  .image-border{
+
+    padding: 3%;
+    padding-right: 0;
+    margin: 2%;
+    border-style: solid;
+    
+}
+
+
+.one-page .button-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one-page .button-container .button-A {
+    margin-right: 5%;
+    width: 100px;
+    height: 40px;
+}
+
+.one-page .button-container .button-B {
+    width: 100px;
+    height: 40px;
+}
+
+.one-page .button-container .button-C {
+    width: 100px;
+    height: 40px;
+}
+
+.hiddenbuton{
+    color: bisque;
+    background-color:blueviolet;
+    text-align: center;
+}

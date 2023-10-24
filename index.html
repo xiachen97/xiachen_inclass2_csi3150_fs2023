@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XiaChen | InClass2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="one-page">
+        <div class="header">
+            <h1><span>Welcome to the Interactive ABCs of CSS Technology learning Website</span></h1>
+            <h2><span>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</span></h2>
+        </div>
+
+        <div class="image-container">
+            
+            <div id="image-a" class="image-border">
+                <img src="./css-letter-a.png" alt="image-a"  width="80%">
+                <button onclick="buttonhideA()" class="hiddenbuton">Hide Result</button>
+            </div>
+            <div id="image-b" class="image-border">
+                <img src="./css-letter-b.png" alt="image-b"  width="80%">
+                <button onclick="buttonhideB()" class="hiddenbuton">Hide Result</button>
+            </div>
+            <div id="image-c" class="image-border">
+                <img src="./css-letter-c.png" alt="image-c"  width="80%">
+                <button onclick="buttonhideC()" class="hiddenbuton">Hide Result</button>
+            </div> 
+        </div>
+        <br>
+
+        <div class="button-container">
+            <button class="button-A" onclick="buttonshowA()"> A </button>
+            <button class="button-B" onclick="buttonshowB()"> B </button>
+            <button class="button-C" onclick="buttonshowC()"> C </button>
+        </div>
+        <br>
+    </div>
+
+
+    <script>
+        function buttonshowA() {
+          var x = document.getElementById("image-a");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function buttonshowB() {
+          var x = document.getElementById("image-b");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function buttonshowC() {
+          var x = document.getElementById("image-c");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+        function buttonhideA() {
+          var x = document.getElementById("image-a");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        function buttonhideB() {
+          var x = document.getElementById("image-b");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        function buttonhideC() {
+          var x = document.getElementById("image-c");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>    
+
+    
+</body>
+</html>
