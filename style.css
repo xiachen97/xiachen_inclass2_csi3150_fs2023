@@ -20,8 +20,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 }
+
 
 .one-page .image-container  .image-border{
 
@@ -29,6 +31,7 @@
     padding-right: 0;
     margin: 2%;
     border-style: solid;
+    display: none;
     
 }
 
